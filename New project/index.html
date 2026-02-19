@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoddies District</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <div class="logo">Hoddies District</div>
+      <p class="brand-by">by Aditi & Tanishka</p>
+    </div>
+    <nav>
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="cart-pill">Cart: <span id="cart-count">0</span></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">NEW DROP</p>
+      <h1>Street Hoodies Built For Everyday Motion.</h1>
+      <p class="tagline">Own the streets, one hoodie at a time.</p>
+      <p class="sub">Premium fleece, clean cuts, bold colors. Designed for comfort from morning commute to midnight walk.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#collection">Shop Hoodies</a>
+        <a class="btn-link" href="#about">Our Story</a>
+      </div>
+    </section>
+
+    <section class="highlights" id="about">
+      <article>
+        <h3>Heavyweight Comfort</h3>
+        <p>Soft brushed interior with durable exterior that holds shape and color.</p>
+      </article>
+      <article>
+        <h3>Modern Fit</h3>
+        <p>Relaxed shoulders with clean taper, balanced for layering in all seasons.</p>
+      </article>
+      <article>
+        <h3>Fast Delivery</h3>
+        <p>Ships in 24 hours with live updates from checkout to your doorstep.</p>
+      </article>
+    </section>
+
+    <section class="brand-strip">
+      <p>Premium Quality</p>
+      <p>Easy Returns</p>
+      <p>Trusted by GenZ</p>
+      <p>Secure Checkout</p>
+    </section>
+
+    <section class="collection" id="collection">
+      <div class="section-head">
+        <h2>Featured Hoodies</h2>
+        <button id="shuffle" class="btn-outline">Shuffle Picks</button>
+      </div>
+      <div class="category-tabs" id="category-tabs">
+        <button class="tab-btn active" data-filter="all">All</button>
+        <button class="tab-btn" data-filter="men">Men</button>
+        <button class="tab-btn" data-filter="women">Women</button>
+        <button class="tab-btn" data-filter="more">More Hoodies</button>
+      </div>
+      <div class="product-grid" id="products"></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Brand: Aditi & Tanishka | Contact: hello@hoodiedistrict.com</p>
+    <p>Open daily 9:00 AM - 9:00 PM</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
